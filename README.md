@@ -13,8 +13,9 @@
   - <a href ="/LFU">Least Frequently Used</a> 
   - <a href ="/FIFO.c">First In First Out</a>
 - <a href ="#">Bankers algorithms</a>
-  - <a href ="/DeadPrediction.c">Simulate Bankers Algorithm for Dead Lock Avoidance</a> 
-  - <a href ="/PreventionDeadlock.c"> Simulate Bankers Algorithm for Dead Lock Prevention</a> 
+  - <a href ="/avoidance.c">For Dead Lock Prevention</a> 
+  - <a href ="/DeadPrediction.c">For Dead Lock Prevention</a> 
+  - <a href ="/PreventionDeadlock.c"> SimulateFor Dead Lock Prevention</a> 
 - <a href ="#">Programs to stimulate</a>
   - <a href ="/MFT.C">MultipleProgramming Fixed Task</a> 
   - <a href ="/MVT.C">MultipleProgramming Variable Task</a> 
