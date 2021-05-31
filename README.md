@@ -8,7 +8,7 @@
   - <a href ="/IndexedFA.c">Indexed File Allocation</a> 
   - <a href ="/LINKEDFA.C">Linked File Allocation</a> 
   - <a href ="/SequentialFA.c">Sequential File Allocation</a>
-- <a href ="#">Simulate all page replacement algorithms</a>
+- <a >Simulate all page replacement algorithms</a>
   - <a href ="/LRU.C">Least Recently Used</a> 
   - <a href ="/LFU">Least Frequently Used</a> 
   - <a href ="/FIFO.c">First In First Out</a>
