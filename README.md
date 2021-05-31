@@ -24,3 +24,8 @@
 - <a href ="/VirtualAddressToPhy.c">Program to convert virtual address to physical address</a> 
 - <a href ="/CycleInWait.c">Program to detect a cycle in wait-for graph</a> 
 
+## Sources
+These progarms are taken from various platforms like GeeksforGeeks, Tutorialpoint, Britannica etc,.
+
+## Contributions
+This repository is open to any kind of contributions. Any kind of suggestions, enhancements are always welcome.🤗
