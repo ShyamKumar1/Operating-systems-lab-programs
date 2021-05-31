@@ -1,10 +1,10 @@
 # Operating Systems Programs In C Language
 
-- <a href ="#">CPU scheduling algorithms</a>
+- <a >CPU scheduling algorithms</a>
   - <a href ="/SJF.c">Shortest Job First</a> 
   - <a href ="/PRIORI~1.C">Priority Scheduling</a>
   - <a href ="/RoundRobin.C">RoundRobin</a> 
-- <a href ="#">File allocation strategies</a>
+- <a >File allocation strategies</a>
   - <a href ="/IndexedFA.c">Indexed File Allocation</a> 
   - <a href ="/LINKEDFA.C">Linked File Allocation</a> 
   - <a href ="/SequentialFA.c">Sequential File Allocation</a>
@@ -12,11 +12,11 @@
   - <a href ="/LRU.C">Least Recently Used</a> 
   - <a href ="/LFU">Least Frequently Used</a> 
   - <a href ="/FIFO.c">First In First Out</a>
-- <a href ="#">Bankers algorithms</a>
+- <a >Bankers algorithms</a>
   - <a href ="/avoidance.c">For Dead Lock Prevention</a> 
   - <a href ="/DeadPrediction.c">For Dead Lock Prevention</a> 
   - <a href ="/PreventionDeadlock.c"> SimulateFor Dead Lock Prevention</a> 
-- <a href ="#">Programs to stimulate</a>
+- <a >Programs to stimulate</a>
   - <a href ="/MFT.C">MultipleProgramming Fixed Task</a> 
   - <a href ="/MVT.C">MultipleProgramming Variable Task</a> 
   - <a href ="/Paging.c">Paging Technique of memory management</a> 
