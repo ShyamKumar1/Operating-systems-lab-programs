@@ -1,0 +1,82 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int g=0,a[5],b[20],p=0,q=0,m=0,h,k,i,q1=1,j,u,n; char f='F';
+clrscr();
+printf("Enter the number of pages:"); scanf("%d",&n);
+printf("Enter %d Page Numbers:",n); for(i=0;i<n;i++)
+scanf("%d",&b[i]);
+for(i=0;i<n;i++)
+{if(p==0)
+{
+if(q>=3)
+q=0;
+a[q]=b[i];
+q++;
+if(q1<3)
+{
+q1=q;
+//g=1;
+}
+}
+printf("\n%d",b[i]);
+printf("\t");
+for(h=0;h<q1;h++)
+printf("%d",a[h]);
+if((p==0)&&(q<=3))
+{
+printf("-->%c",f);m++;
+}
+p=0;
+g=0;
+if(q1==3)
+{
+for(k=0;k<q1;k++)
+{
+if(b[i+1]==a[k])
+p=1;
+}
+for(j=0;j<q1;j++)
+{
+u=0;
+k=i;while(k>=(i-1)&&(k>=0))
+{
+if(b[k]==a[j])
+u++;k--;
+}
+if(u==0)
+q=j;
+}
+}
+else
+{
+for(k=0;k<q;k++)
+{
+if(b[i+1]==a[k])
+p=1;
+}
+}
+}
+printf("\nNo of faults:%d",m); getch();
+}
+/*
+SAMPLE INPUT AND OUTPUT:
+Input:
+Enter the Number of Pages: 12 Enter 12 Page Numbers:
+2 3 2 1 5 2 4 5 3 2 5 2
+Output:
+22-> F
+323-> F
+2 23
+1231-> F
+5251-> F
+2251
+4254-> F
+5254
+3354-> F
+2352-> F
+5352
+2352
+No of faults: 7
+*/
